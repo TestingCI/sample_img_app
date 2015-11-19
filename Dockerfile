@@ -11,7 +11,7 @@ RUN apt-get update
 
 # Install pip
 #RUN easy_install pip
-
+#test
 # Install requirements.txt
 #ADD requirements.txt /src/requirements.txt
 #RUN cd /src; pip install -r requirements.txt
