@@ -27,3 +27,9 @@ build_image:
    name:  vidyar/phpmongo:2.1
    net: host
    privileged: true
+
+branches:
+  only:
+    - master
+    - shippable
+    
